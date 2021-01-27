@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Pallete extends Component {
+class Palette extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
@@ -8,11 +8,11 @@ class Pallete extends Component {
 
 	render() {
 		return (
-			<div>
-				<h1>Pallete</h1>
+			<div className="Palette">
+				<div className="Palette-colors">Pallete</div>
 			</div>
 		);
 	}
 }
 
-export default Pallete;
+export default Palette;
